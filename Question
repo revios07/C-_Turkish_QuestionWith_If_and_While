@@ -1,0 +1,11 @@
+# CSharp_Turkish_QuestionWith_If_and_While
+Türkçe bir antrenman sorusu hazırladım cevabımıda paylaşıyorum iyi eğlenceler :)
+
+Sorumuz= c# dilini kullanarak bir program yazmımızı istiyor
+
+question = Kullanıcıdan bir sayı girmesini isteyiniz, eğer bu sayı 10dan küçük veya eşitse tek mi çift mi olduğunu yazınız
+eğer 10dan büyükse sayının karesini alarak ekrana yazdırınız :)
+Not= if kullanarak yapınız
+Not= Aynı zamanda while döngüsüne sokarak tekrar tekrar işlemi yapmasını sağlayınız( biz bir komut girene kadar)
+
+İyi çalışmalar:)))
