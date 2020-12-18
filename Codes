@@ -1,0 +1,49 @@
+using System;
+
+namespace ConsoleApp9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Soru 10dan küçük sayıların tek mi çift mi olduğunu söyleyen 10dan büyük sayıların ise karesini söyleyen programı yazınız?
+
+            bool quit = true;
+
+            Console.WriteLine("Merhabalar efenim 10dan küçük sayıların tek mi çift mi 10dan büyüklerinse karesini alan programa hoşgeldiniz :dd");
+            while (quit == true)
+            {
+
+                Console.Write("Sayımızı rica ediciiim");
+                Double number = double.Parse(Console.ReadLine());
+
+                if (number <= 10)
+                {
+                    Console.WriteLine("Demek sayımız 10dan küçük :dd");
+                    Console.Read();
+
+                    if (number % 2 == 0)
+                    {
+                        Console.WriteLine("Sayı çift!!!");
+                    }
+                    else if (number % 2 != 0)
+                    {
+                        Console.WriteLine("Sayı tek!!!");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Sayımız 10dan büyük o zaman karesi = " + (number / number + "Buldum!!! :dd"));
+                }
+
+                Console.WriteLine("Eğer çıkmak istiyorsanız quit yazınız :) Devam etmek isterseniz entera basınız :)");
+                string exit = Console.ReadLine();
+                if(exit == "quit")
+                {
+                    quit = false;
+                }
+
+            }
+        }
+    }
+}
